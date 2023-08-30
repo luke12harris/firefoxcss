@@ -33,6 +33,8 @@ toolbarbutton.bookmark-item {
 	margin: 0;
 }
 
+/* Centre the text in the url bar when not active */
+#urlbar:not([focused]) #urlbar-input{ text-align: center !important; }
 
 /*=====*/
 

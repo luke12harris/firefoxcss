@@ -24,6 +24,16 @@ toolbarbutton.bookmark-item {
 #star-button{
 	display: none;
 }
+#star-button-box {
+	width: 0;
+	max-width: 0;
+	min-width: 0;
+	border-width: 0;
+	padding: 0px 0px 0px 1px !important;
+	margin: 0;
+}
+
+
 /*=====*/
 
 :root, window, page, dialog, wizard, toolbar, .cui-widget-panel, #widget-overflow {

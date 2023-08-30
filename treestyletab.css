@@ -1,3 +1,16 @@
+/* Close button when hover */
+#tabbar tab-item tab-item-substance:not(:hover) tab-closebox {
+  display: none;
+}
+/* Change the close button icon */
+tab-closebox::after {
+  content: "⨉";
+  background: none;
+  line-height: 1;
+  mask: none;
+  text-align: center;
+  margin-right: 8px;
+}
 /* Force default dark styles */
 
 :root {
@@ -537,11 +550,6 @@
 
 
 /* Actual user settings */
-
-/* Hide close buttons on tabs. */
-tab-item .closebox {
-	visibility: collapse;
-}
 
 tab-item {
 	overflow: visible !important;
